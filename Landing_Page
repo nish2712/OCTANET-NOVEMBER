@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movieflix</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        /* Header */
+        .header {
+            background-color: transparent;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .header img {
+            width: 120px;
+        }
+
+        /* Navigation Menu */
+        .nav-menu {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .nav-menu li {
+            margin-right: 20px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://img.freepik.com/free-photo/movie-background-collage_23-2149876011.jpg?w=1060&t=st=1696586379~exp=1696586979~hmac=83e542f0dd01610021dc54b734ab4e7395b5a62f7ae3b82d1cef94b9de0bd833'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        /* Featured Section */
+        .featured {
+            padding: 50px;
+        }
+
+        .featured h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 1.2rem;
+            color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="C:\Users\Hp\Pictures\Screenshots\11.png" alt="MKV Logo">
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">New & Popular</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <div>
+            <h1>Welcome to flix</h1>
+            <p>Watch amazing TV shows and movies online.</p>
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+    <div class="featured">
+        <h2>Featured Titles</h2>
+        <!-- Add featured movie and TV show content here -->
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 MovieFlix Clone</p>
+    </div>
+</body>
+</html>
